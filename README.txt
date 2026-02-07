@@ -30,7 +30,7 @@ Digital shortcodes can also control 12/24-hour format, seconds, and optional dat
 
 == Installation ==
 
-1. Upload the plugin folder to /wp-content/plugins/multi-timezone-clocks/
+1. Upload the plugin folder to /wp-content/plugins/wp-clocks-plugin/
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Settings → Timezone Clocks to configure your clocks
 4. Insert shortcodes into your pages/posts
@@ -53,22 +53,10 @@ Yes. Use type="digital" or type="analog". The default is type="config" which use
 
 Yes. Updates occur client-side. Digital clocks align to the second boundary; analog clocks can tick each second or animate smoothly depending on smooth="1".
 
-== Screenshots ==
-
-1. Settings page to configure clocks (label, timezone, type)
-2. Example analog and digital clocks rendered in a page
-
 == Changelog ==
 
-= 1.3.0 =
-* Added per-shortcode type override (type="config|analog|digital")
-* Added visitor local time option (user_time="1")
-* Admin configuration for per-clock analog/digital type
-
-== Upgrade Notice ==
-
-= 1.3.0 =
-Adds per-shortcode type override and support for visitor local time.
+= 0.1.0=
+* Initial version
 
 == Shortcodes ==
 

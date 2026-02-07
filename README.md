@@ -22,8 +22,6 @@ Each shortcode renders **one clock**, making it easy to place clocks anywhere in
 - Analog clock options:
   - Adjustable size
   - Optional smooth second-hand animation
-- Client-side real-time updates (no server polling)
-- No tracking, no cookies, no external API calls
 
 ## Requirements
 
@@ -34,7 +32,7 @@ Each shortcode renders **one clock**, making it easy to place clocks anywhere in
 ## Installation
 
 1. Copy the plugin directory to:
-   `wp-content/plugins/multi-timezone-clocks/`
+   `wp-content/plugins/wp-clocks-plugin/`
 2. Activate the plugin in **WordPress Admin → Plugins**
 3. Configure clocks in **Settings → Timezone Clocks**
 
