@@ -22,7 +22,7 @@ If you believe you have found a security vulnerability, please report it respons
 
 After receiving a report, we will:
 
-- Confirm receipt as soon as possible
+- Confirm receipt wihtin 72 hours
 - Investigate and validate the issue
 - Prepare a fix and release a new version
 - Credit the reporter if desired

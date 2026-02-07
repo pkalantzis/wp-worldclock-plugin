@@ -31,8 +31,8 @@ class MTC_Timezone_Clocks {
 
     public function register_assets() {
         $url = plugin_dir_url(__FILE__);
-        wp_register_script('mtc-clocks', $url . 'assets/mtc-clocks.js', [], self::VERSION, true);
-        wp_register_style('mtc-clocks', $url . 'assets/mtc-clocks.css', [], self::VERSION);
+        wp_register_script('mtc-clocks', $url . 'assets/js/mtc-clocks.js', [], self::VERSION, true);
+        wp_register_style('mtc-clocks', $url . 'assets/css/mtc-clocks.css', [], self::VERSION);
     }
 
     private function enqueue_frontend_assets(): void {
